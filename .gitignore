@@ -1,0 +1,35 @@
+# ===== Python / Backend =====
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/.pytest_cache/
+backend/*.egg-info/
+backend/dist/
+backend/*.db
+backend/*.db-journal
+backend/*.db-wal
+
+# ===== Node / Frontend =====
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.tsbuildinfo
+
+# ===== Environment =====
+.env
+.env.local
+*.env.local
+
+# ===== IDE & Editors =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ===== Docker =====
+docker-data/
